@@ -1,0 +1,74 @@
+@import 'libs/normalize';
+@import './fonts';
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #FFFFFF;
+  height: 100vh;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.btn {
+  margin-top: 30px;
+  width: 374px;
+  height: 63px;
+  background: #fcc770;
+  border-radius: 38px;
+  border: none;
+  
+  font-family: "HelveticaNeueCyr-Medium";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 108.1%;
+  letter-spacing: 0.05em;
+  color: #f6f1fb;
+  cursor: pointer;
+}
+
+.wrapper {
+  margin: 0 auto;
+  margin-top: 32px;
+  width: 414px;
+  height: 555px;
+  text-align: center;
+}
+
+.link-recoverypass {
+  display: block;
+  margin-top: 20px;
+  font-family: "HelveticaNeueCyr-Medium";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 108.1%;
+  letter-spacing: 0.05em;
+  color: #3f414e;
+}
+
+.text-signup {
+  display: inline-block;
+  margin-top: 40px;
+  font-family: "HelveticaNeueCyr-Medium";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 108.1%;
+  letter-spacing: 0.05em;
+  color: #a1a4b2;
+  text-transform: uppercase;
+}
+
+.link-signup {
+  margin-left: 4px;
+  text-transform: uppercase;
+  color: #8e97fd;
+}
+
+@import './components/all';
